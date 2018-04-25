@@ -5,7 +5,6 @@ weird = [".","?","!","&","#",";",":","-","_","*"]
 
 def password_check(password):
     pass_list = [x for x in password]
-    ck = False
     alphack = [i for i in upper if i in pass_list]
     if 0 >= len(alphack):
         print "Need Capital Letters"
