@@ -17,7 +17,7 @@ def password_check(password):
     return True
 
 def password_strength(password):
-    if (password_check == True):
+    if (password_check(password) == True):
         pass_list = [x for x in password]
         score = 0
         alpha = [i for i in upper if i in pass_list]
